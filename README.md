@@ -4,7 +4,7 @@ Komponen yang dipakai
 
 [TailwindCSS](https://tailwindcss.com/docs/)\
 [RemixIcon](https://remixicon.com)\
-[DaisyUI](https://https://daisyui.com/)\
+[DaisyUI](https://https://daisyui.com/)
 
 ## Install & Setup
 
