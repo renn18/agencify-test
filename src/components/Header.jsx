@@ -241,19 +241,23 @@ const Header = () => {
 
                 <div className="px-2 sm:px-3 ">
                     <div className="dropdown dropdown-start">
-                        <div tabIndex={0} role="button" className="nav-link"><div className='flex flex-1 items-end justify-start gap-4 w-[20rem]'>
-                            <span className='text-base ml-4'>Nos services</span>
-                            <RiArrowDownSLine size={23} color='#000' className='block mr-3 right-0' />
-                        </div>
+                        <div tabIndex={0} role="button" className="nav-link">
+                            <div className='flex flex-1 items-end justify-start gap-4 w-[20rem]'>
+                                <span className='text-base ml-4'>Nos services</span>
+                                <RiArrowDownSLine size={23} color='#000' className='block mr-3 right-0' />
+                            </div>
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu dropdown-content bg-base-100 rounded-box z-[1]  w-[20rem] p-8 shadow">
+                            className="menu dropdown-content bg-base-100 rounded-box z-[1]  w-[21rem] shadow">
                             <li className="mb-3"><a href="#1" className='nav-link'>
                                 <div className='flex items-center p-2'>
                                     <img src={Optimisation} width={38} height={38} alt="optimisation-logo" />
                                     <div className='px-3'>
-                                        <span className='text-base'>Optimisation</span>
+                                        <span className='relative text-base'>Optimisation</span>
+                                        <div className='absolute right-0 btn bg-[#0AC45F] bg-opacity-15 rounded-full btn-xs '>
+                                            <RiVerifiedBadgeFill color='#0AC45F' className='w-4' /><span className='text-[8px] text-[#0AC45F]'>La plus populaire</span>
+                                        </div>
                                         <p className='text-[#868686] mt-1'>Web</p>
                                     </div>
                                 </div>
