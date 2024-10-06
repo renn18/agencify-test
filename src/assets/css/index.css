@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
+}
+
+.nav{
+  height: calc(3.5rem + 3.5rem);
+  column-gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerd{
+  margin-inline: auto;
+  margin-right: 3.5rem;
+  margin-left: 7rem;
+}
+
+.nav-logo{
+  display: flex;
+}
+
+.nav-menu{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-list{
+  column-gap: 4rem;
+  display: flex;
+}
+
+.nav-link{
+  position: relative;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  color: #E75A7C;
+}
+
+.active-link{
+  color: #E75A7C;
+}
+
+.active-link::after{
+  width: 25%;
+}
+
+.button{
+  display: flex;
+  background-color: #E75A7C;
+  padding: .3rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  column-gap: 1rem;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.dropdown-ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dropdownNotre{
+  position: absolute;
+  top: 6rem;
+  left: 49rem;
+  width: 350px;
+  padding: 1.5rem 3rem;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 16px hsla(0, 0%, 0%, .10);
+}
+
+.dropdown-content{
+  display: flex;
+  flex-direction: column;
+}
+
+
