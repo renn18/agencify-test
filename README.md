@@ -1,10 +1,10 @@
-# Project ini dibuat dengan React JS (Create Reaact App)
+# Dibuat dengan React JS (Create Reaact App)
 
 Komponen yang dipakai
 
-[TailwindCSS](https://tailwindcss.com/docs/)
-[RemixIcon](https://remixicon.com)
-[DaisyUI](https://https://daisyui.com/)
+[TailwindCSS](https://tailwindcss.com/docs/)\
+[RemixIcon](https://remixicon.com)\
+[DaisyUI](https://https://daisyui.com/)\
 
 ## Install & Setup
 
@@ -26,6 +26,5 @@ Kamu juga akan melihat beberapa lint yang error pada konsol.
 
 ## Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-Link : [Agencify-Alpha](https://agencify-alpha.vercel.app)/
+Link : [Agencify-Alpha](https://agencify-alpha.vercel.app)\
 Untuk view medium (tab) belum di set, hanya responsive pada Dekstop dan Mobile.
